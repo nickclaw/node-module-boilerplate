@@ -1,4 +1,3 @@
-examples
 node_modules
 src
 test
@@ -7,4 +6,3 @@ test
 .eslintrc
 .gitignore
 .travis.yml
-CONTRIBUTING.md
