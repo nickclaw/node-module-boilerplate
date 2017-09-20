@@ -1,4 +1,7 @@
 
 export default async function () {
-  return 1;
+  const foo = {};
+  const { bar, ...baz } = foo;
+  const qux = { ...baz, bar };
+  return qux;
 }

@@ -1,5 +1,7 @@
 {
-  "plugins": ["transform-runtime"],
+  "plugins": [
+    "transform-runtime"
+  ],
   "presets": [
    ["env", {
      "targets": {
@@ -7,6 +9,7 @@
        "uglify": true,
        "browsers": ["last 2 versions"]
      }
-   }]
+   }],
+   "stage-2"
  ]
 }
