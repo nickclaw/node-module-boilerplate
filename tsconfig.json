@@ -1,15 +1,16 @@
 {
   "compilerOptions": {
      "lib": [
-        "es5",
-        "es6"
+       "esnext"
      ],
      "target": "es6",
      "module": "commonjs",
      "moduleResolution": "node",
      "outDir": "./lib",
-     "emitDecoratorMetadata": true,
-     "experimentalDecorators": true,
-     "sourceMap": true
-  }
+     "sourceMap": true,
+     "strict": true,
+  },
+  "include": [
+    "src/**/*"
+  ]
 }

@@ -19,14 +19,13 @@
   "keywords": [],
   "author": "Nicholas Clawson <nickclaw@gmail.com> (nickclaw.com)",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@types/chai": "^4.1.0",
-    "@types/mocha": "^2.2.46",
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.5",
     "chai": "^4.1.2",
-    "mocha": "^3.5.3",
-    "ts-node": "^4.1.0",
-    "typescript": "^2.6.2"
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.3"
   }
 }
