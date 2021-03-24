@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "rm -rf lib && tsc",
-    "test": "mocha test \"test/**/*.{ts,tsx}\"",
+    "test": "mocha test --require ts-node/register \"test/**/*.ts\"",
     "prepublishOnly": "npm run test && npm run build",
     "publish:major": "npm version major && npm publish",
     "publish:minor": "npm version minor && npm publish",
@@ -19,14 +19,12 @@
   "keywords": [],
   "author": "Nicholas Clawson <nickclaw@gmail.com> (nickclaw.com)",
   "license": "MIT",
-  "dependencies": {
-  },
   "devDependencies": {
-    "@types/chai": "^4.1.0",
-    "@types/mocha": "^2.2.46",
-    "chai": "^4.1.2",
-    "mocha": "^3.5.3",
-    "ts-node": "^4.1.0",
-    "typescript": "^2.6.2"
+    "@types/chai": "^4.2.15",
+    "@types/mocha": "^8.2.2",
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
   }
 }
